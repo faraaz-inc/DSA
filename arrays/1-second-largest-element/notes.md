@@ -2,6 +2,10 @@
 
 [CodeStudio](https://www.codingninjas.com/studio/problems/ninja-and-the-second-order-elements_6581960?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf)
 
+<b>Input: </b>```[1, 2, 3, 4, 5]```<br>
+<b>Output: </b>```[5, 4]```
+
+
 ## Brute Force :-
 
 * Sort the array in ascending order
@@ -23,8 +27,16 @@
 
 * Take two variables, largest and sec_largest and iterate through the array
 * Replace largest variable on the go if current element is greater than the prev largest and store prev largest value in sec_largest
+``` cpp
+    for(int i = 1; i < n; i++) {
+        if(arr[i] > largest) {
+            second_largest = largest;
+            largest = arr[i];
+        }
+        if(arr[i] > second_largest && arr[i] < largest)
+            second_largest = arr[i];
+    }
+```
+### Complexity
+O(N) - For traversing through the array
 
-    ### Complexity
-    O(N) - For traversing through the array
-
-  

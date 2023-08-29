@@ -3,10 +3,10 @@
 [LeetCode](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)
 
 <b>Input:</b> nums = ```[3,4,5,1,2]``` <br>
-<b>Output:</b> true
+<b>Output:</b> ```true```
 
 <b>Input:</b> nums = ```[2,1,3,4]``` <br>
-<b>Output:</b> false
+<b>Output:</b> ```false```
 
 ## Solution :
 
