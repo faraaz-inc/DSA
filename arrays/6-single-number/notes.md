@@ -62,7 +62,7 @@ Overall: O(3N)
 
 ### Another Approach
 
-* <strong>This method won't work if max element is very big (10^9), in that case use map data structure with ```long long``` as the key data type</strong>
+* <strong>Above method won't work if max element is very big (10^9), in that case use map data structure with ```long long``` as the key data type</strong>
 * <strong>Also if the array has negative elements, it won't be straight fwd to hash them </strong>
 
 <b>Code: </b> <br>
