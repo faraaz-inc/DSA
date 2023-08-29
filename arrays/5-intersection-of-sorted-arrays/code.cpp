@@ -18,7 +18,6 @@ int main() {
 }
 
 vector<int> findArrayIntersection(vector<int> &arr1, int n, vector<int> &arr2, int m) {
-	// Write your code here.
 	int i = 0, j = 0;
 	vector<int> ans;
     //Iterate over both the arrays
