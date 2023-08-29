@@ -14,12 +14,12 @@ int main() {
 
 
 int removeDuplicates(vector<int>& nums) {
-    int j = 0;
+    int j = 0;                              //Iterator for placing the unique elements
     int n = nums.size();
     for(int i = 1; i < n; i++) {
-        if(nums[i] != nums[j]) {
-            nums[j + 1] = nums[i];
-            j++;
+        if(nums[i] != nums[j]) {           //If unique element is found,
+            nums[j + 1] = nums[i];           //Replace (j + 1)th element with the unique element
+            j++;                           //Update j
         }
     }
     return j + 1;
