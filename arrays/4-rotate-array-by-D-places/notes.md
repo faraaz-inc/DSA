@@ -1,5 +1,7 @@
 # Rotate an array by D places
 
+[LeetCode](https://leetcode.com/problems/rotate-array/)
+
 Right rotate the array by k places <br>
 <b>Input:</b> nums = ```[1,2,3,4,5,6,7]```  ```k = 3``` <br>
 <b>Output:</b> ```[5,6,7,1,2,3,4]```
